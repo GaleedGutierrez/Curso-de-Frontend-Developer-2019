@@ -16,16 +16,38 @@
     margin-right: 3rem;
     position: relative;
 
-    .menu__profile {
-        width: 4rem;
-        // margin-right: 0.8rem;
+    &:hover .menu__logged {
+        display: initial;
     }
-    
-    .menu__logged {
-        // display: none;
-        width: 10rem;
-        text-align: right;
-        position: absolute;
-        right: 0;
+}
+
+.menu__profile {
+    display: flex;
+    align-items: center;
+
+    .profile__icon {
+        width: 5rem;
+        margin-right: 0.8rem;
+    }
+}
+
+.menu__logged {
+    display: none;
+    width: 10rem;
+    text-align: right;
+    position: absolute;
+    right: 0;
+
+    .logged__items {
+        margin: 1rem 0;
+    }
+
+    .logged__text {
+        color: $color-claro;
+        font-weight: 500;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }

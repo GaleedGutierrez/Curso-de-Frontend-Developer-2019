@@ -12,11 +12,13 @@ html {
 }
 
 body {
+    font-family: "Mulish", sans-serif;
     font-size: 1.6rem;
+    color: #ffffff;
     background-color: #8F57FD;
 }
 
-img {
+img, svg {
     width: 100%;
 }
 
@@ -42,12 +44,37 @@ img {
     margin-right: 3rem;
     position: relative;
 }
-.header__menu .menu__profile {
-    width: 4rem;
+.header__menu:hover .menu__logged {
+    display: initial;
 }
-.header__menu .menu__logged {
+
+.menu__profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.menu__profile .profile__icon {
+    width: 5rem;
+    margin-right: 0.8rem;
+}
+
+.menu__logged {
+    display: none;
     width: 10rem;
     text-align: right;
     position: absolute;
     right: 0;
+}
+.menu__logged .logged__items {
+    margin: 1rem 0;
+}
+.menu__logged .logged__text {
+    color: #ffffff;
+    font-weight: 500;
+}
+.menu__logged .logged__text:hover {
+    text-decoration: underline;
 }

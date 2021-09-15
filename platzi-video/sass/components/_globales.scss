@@ -11,10 +11,12 @@ html {
 }
 
 body {
+    font-family: $fuente-principal;
     font-size: 1.6rem;
+    color: $color-claro;
     background-color: $color-principal;
 }
 
-img {
+img, svg {
     width: 100%;
 }
