@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Platzi Video</title>
   </head>
@@ -12,8 +15,8 @@
       <figure class="header__logo"><img src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="Logo de Platzi Video"></figure>
       <section class="header__menu">
         <div class="menu__profile">
-          <figure>
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;">
+          <figure class="profile__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 172 172" style=" fill:#000000;">
               <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
                 <path d="M0,172v-172h172v172z" fill="none"></path>
               </g>
@@ -22,15 +25,15 @@
               </g>
             </svg>
           </figure>
-          <p>Perfil</p>
+          <p class="profile__text">Perfil</p>
         </div>
         <ul class="menu__logged">
-          <li><a href="/">Cuenta</a></li>
-          <li><a href="/">Cerrar Sesión</a></li>
+          <li class="logged__items"><a class="logged__text" href="/">Cuenta</a></li>
+          <li class="logged__items"><a class="logged__text" href="/">Cerrar Sesión</a></li>
         </ul>
       </section>
     </header>
-    <main> </main>
+    <main class="main"></main>
     <footer> </footer>
   </body>
 </html>
