@@ -5,6 +5,7 @@
             box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    outline: none;
 }
 
 html {
@@ -36,12 +37,12 @@ img, svg {
     height: 8rem;
 }
 .header__logo {
-    width: 20rem;
-    margin-left: 3rem;
+    width: 15rem;
+    margin-left: 1rem;
 }
 
 .header__menu {
-    margin-right: 3rem;
+    margin-right: 1rem;
     position: relative;
 }
 .header__menu:hover .menu__logged {
@@ -77,4 +78,46 @@ img, svg {
 }
 .menu__logged .logged__text:hover {
     text-decoration: underline;
+}
+
+.main {
+    width: 100%;
+}
+
+.main__search {
+    height: 30rem;
+}
+.main__search .search__form {
+    width: 70%;
+}
+.main__search .search__title {
+    margin-bottom: 2.1rem;
+    font-size: 2.5rem;
+}
+
+.input {
+    width: 100%;
+    height: 5rem;
+    padding-left: 2rem;
+    border: 0.2rem solid #ffffff;
+    border-radius: 5rem;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+.input::-moz-placeholder {
+    color: #ffffff;
+}
+.input:-ms-input-placeholder {
+    color: #ffffff;
+}
+.input::-ms-input-placeholder {
+    color: #ffffff;
+}
+.input::placeholder {
+    color: #ffffff;
 }

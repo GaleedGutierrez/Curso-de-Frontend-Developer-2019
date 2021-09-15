@@ -1,0 +1,14 @@
+.input {
+    width: 100%;
+    height: 5rem;
+    padding-left: 2rem;
+    border: 0.2rem solid $color-claro;
+    border-radius: 5rem;
+    font-family: $fuente-principal;
+    font-size: 1.6rem;
+    color: $color-claro;
+    background-color: rgba($color-claro, 0.1);
+    &::placeholder {
+        color: $color-claro;
+    }
+}

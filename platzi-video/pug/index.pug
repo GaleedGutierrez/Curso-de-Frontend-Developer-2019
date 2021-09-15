@@ -1,9 +1,9 @@
 extend ./components/_plantilla.pug
 block main
     main.main
-        //- section 
-        //-     form(action="")
-        //-         h2 ¿Qué quieres ver hoy?
-        //-         label(for="")
-        //-             input(type="text" id="" placeholder="Buscar...")
+        section.main__search
+            form.search__form(action="")
+                h2.search__title ¿Qué quieres ver hoy?
+                label(for="")
+                    input.input(type="text" id="" placeholder="Buscar...")
 
