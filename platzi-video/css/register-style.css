@@ -118,7 +118,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    height: 10rem;
+    height: 12.1vh;
 }
 
 .footer__faq,
@@ -142,9 +142,6 @@ body {
 .faq-link {
     cursor: pointer;
     font-size: 1.4rem;
-    /*
-    padding-left: 3rem;
-    */
     color: #ffffff;
 }
 .faq-link:hover {
@@ -180,14 +177,11 @@ body {
             flex-flow: column nowrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 90%;
+    width: 100%;
     max-width: 44rem;
     min-height: 70rem;
     padding: 4rem 3.4rem 4rem;
     color: #ffffff;
-    border: 0.2rem solid #ffffff;
-    border-radius: 4rem;
-    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .input {
