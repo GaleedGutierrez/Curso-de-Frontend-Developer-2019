@@ -14,6 +14,7 @@ mixin item-carousel(mainImagen, altMainImage)
             p.carousel-item__subtitle 2019 16+ 114 minutos
 
 mixin login-with-social-media(socialMediaIcon, alt, text)
-    figure 
-        img(src=socialMediaIcon, alt=alt)
-    span #{text}
+    .social-media-login-container
+        figure.social-media-login-icons
+            img(src=socialMediaIcon, alt=alt)
+        span.social-media-login-text #{text}
