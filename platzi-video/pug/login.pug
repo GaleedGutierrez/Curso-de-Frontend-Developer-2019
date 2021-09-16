@@ -1,0 +1,24 @@
+extend ./components/_plantilla.pug
+block head 
+    include ./components/styles-components/_style-login.pug
+block main
+    main.main 
+        section.login
+            section.login__container
+                h2 Inicia sesión 
+                form(action="").login-container__form
+                    label(for="")
+                        input(type="" placeholder="Correo" autocomplete="email" required).input
+                    label(for="") 
+                        input(type="password" placeholder="Contrasenia" autocomplete="new-password" required).input
+                    input(type="submit", value="Iniciar sesión").button
+                    .login--container__remember-me 
+                        label(for="box1") 
+                            input(type="checkbox", name="box1" value="checkbox")
+                            span Recuerdame
+                        a(href="#") Olvide mi contraseña 
+                section.login__social-media 
+                    +login-with-social-media("https://static.platzi.com/media/tmp/class-files/git/curso-frontend-escuelajs/curso-frontend-escuelajs-maquetacion-login-HTML/maquetacion-login-HTML/assets/google-icon.png", "Google icon", "Iniciar sesión con Google")
+                    +login-with-social-media("https://static.platzi.com/media/tmp/class-files/git/curso-frontend-escuelajs/curso-frontend-escuelajs-maquetacion-login-HTML/maquetacion-login-HTML/assets/twitter-icon.png", "Twitter icon", "Iniciar sesión con Twitter")
+                p.login__register No tienes ninguna cuenta 
+                    a(href="") Regístrate 

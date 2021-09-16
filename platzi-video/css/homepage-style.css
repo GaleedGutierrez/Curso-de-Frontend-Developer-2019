@@ -70,7 +70,7 @@ img, svg {
     right: 0;
 }
 .menu__logged .logged__items {
-    margin: 1rem 0;
+    margin-bottom: 1rem;
 }
 .menu__logged .logged__text {
     color: #ffffff;
@@ -85,12 +85,32 @@ img, svg {
 }
 
 .main__search {
-    height: 30rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin-top: 6rem;
 }
 .main__search .search__form {
-    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    width: 95%;
 }
 .main__search .search__title {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     margin-bottom: 2.1rem;
     font-size: 2.5rem;
 }

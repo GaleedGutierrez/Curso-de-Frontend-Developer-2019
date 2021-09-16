@@ -1,3 +1,6 @@
+mixin estilos-head(estilos)
+    link(rel="stylesheet", href="../css/"+estilos)
+
 mixin item-carousel(mainImagen, altMainImage)
     .carousel-item
         figure.carousel-item__img: img(src=mainImagen, alt=altMainImage)
@@ -9,3 +12,8 @@ mixin item-carousel(mainImagen, altMainImage)
                     img(src="https://img.icons8.com/flat-round/64/000000/plus.png", alt="Icono de agragar")
             p.carousel-item__title Título descriptivo
             p.carousel-item__subtitle 2019 16+ 114 minutos
+
+mixin login-with-social-media(socialMediaIcon, alt, text)
+    figure 
+        img(src=socialMediaIcon, alt=alt)
+    span #{text}

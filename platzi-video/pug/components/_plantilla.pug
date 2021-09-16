@@ -1,6 +1,8 @@
+include ./_mixins.pug
 doctype html
 html(lang="es")
-    include ./_head.pug
+    head
+        block head
     body
         include ./_header.pug
         block main

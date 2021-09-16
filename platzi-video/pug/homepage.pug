@@ -1,5 +1,7 @@
 extend ./components/_plantilla.pug
-block main
+block head 
+    include ./components/styles-components/_style-homepage.pug
+block main 
     main.main
         section.main__search
             form.search__form(action="")
