@@ -8,7 +8,7 @@ block main
                 h2 Inicia sesión 
                 form(action="").login-container__form
                     label.login-form__label(for="")
-                        input(type="" placeholder="Correo" autocomplete="email" required).input
+                        input(type="email" placeholder="Correo" autocomplete="email" required).input
                     label.login-form__label(for="") 
                         input(type="password" placeholder="Contrasenia" autocomplete="new-password" required).input
                     input(type="submit", value="Iniciar sesión").button
@@ -21,4 +21,4 @@ block main
                         +login-with-social-media("https://static.platzi.com/media/tmp/class-files/git/curso-frontend-escuelajs/curso-frontend-escuelajs-maquetacion-login-HTML/maquetacion-login-HTML/assets/google-icon.png", "Google icon", "Iniciar sesión con Google")
                         +login-with-social-media("https://static.platzi.com/media/tmp/class-files/git/curso-frontend-escuelajs/curso-frontend-escuelajs-maquetacion-login-HTML/maquetacion-login-HTML/assets/twitter-icon.png", "Twitter icon", "Iniciar sesión con Twitter")
                 p.login__register No tienes ninguna cuenta 
-                    a(href="") Regístrate 
+                    a(href="").register__link Regístrate 

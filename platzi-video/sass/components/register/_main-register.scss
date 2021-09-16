@@ -1,0 +1,11 @@
+@include ocualtar-cuenta-usuario;
+
+.register-container__form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.register__login {
+    text-align: center;
+    @include action-ancla;
+}

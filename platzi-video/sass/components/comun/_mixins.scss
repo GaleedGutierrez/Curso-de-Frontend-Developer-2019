@@ -1,0 +1,12 @@
+@mixin ocualtar-cuenta-usuario {
+    .header__menu {
+        display: none;
+    }
+}
+
+@mixin action-ancla {
+    color: $color-claro;
+    &:hover {
+        text-decoration: underline;
+    }
+}

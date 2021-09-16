@@ -43,11 +43,7 @@
     }
 
     .logged__text {
-        color: $color-claro;
         font-weight: 500;
-
-        &:hover {
-            text-decoration: underline;
-        }
+        @include action-ancla;
     }
 }

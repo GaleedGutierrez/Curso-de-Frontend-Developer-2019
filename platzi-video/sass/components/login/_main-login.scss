@@ -1,40 +1,14 @@
-.login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column nowrap;
-    min-height: calc(100vh - 20rem);
-    // padding: 0 3rem;
-
-    &__container {
-        // box-sizing: content-box;
-        width: 90%;
-        max-width: 44rem;
-        min-height: 70rem;
-        padding:
-            /*6rem 6.8rem 4rem*/
-            6rem 3.4rem 4rem;
-        color: $color-claro;
-        border: 0.2rem solid $color-claro;
-        border-radius: 4rem;
-        background-color: rgba($color-claro, 0.1);
-    }
-}
+@include ocualtar-cuenta-usuario;
 
 .login-container__form {
     display: flex;
     flex-flow: column nowrap;
-
-    .login-form__label {
-        font-size: 1.4rem;
-    }
-
+    
     .login-container__remember-me {
         display: flex;
         justify-content: space-between;
         flex-flow: column nowrap;
         margin-top: 1rem;
-        font-size: 1.4rem;
         color: $color-claro;
 
         .login-remember-me__span {
@@ -42,24 +16,27 @@
         }
 
         .login-remember-me__i-forgot-my-password {
-            color: $color-claro;
-
-            &:hover {
-                text-decoration: underline;
-            }
+            margin-top: 1rem;
+            @include action-ancla;
         }
     }
 }
 
 .social-media-login-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 1rem;
-        font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
 
-        .social-media-login-icons {
-            display: inline-block;
-            width: 3.2rem;
-        }
+    .social-media-login-icons {
+        display: inline-block;
+        width: 3rem;
+        margin-right: 1rem;
+    }
+}
+
+.register__link {
+    font-size: 1.6rem;
+    font-weight: bold;
+    @include action-ancla;
 }

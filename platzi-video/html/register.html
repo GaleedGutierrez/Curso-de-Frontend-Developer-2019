@@ -8,7 +8,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="../css/login-styles.css"/>
+      <link rel="stylesheet" href="../css/register-style.css"/>
       <title>Platzi Video</title>
     </head>
   </head>
@@ -35,33 +35,22 @@
         </ul>
       </section>
     </header>
-    <main class="main"> 
-      <section class="login">
-        <section class="login__container">
-          <h2>Inicia sesión </h2>
-          <form class="login-container__form" action="">
-            <label class="login-form__label" for="">
+    <main class="main">
+      <section class="register">
+        <section class="register__container">
+          <h2>Regístrate</h2>
+          <form class="register-container__form" action=""> 
+            <label for="">
+              <input class="input" type="text" placeholder="Nombre" autocomplete="name" required>
+            </label>
+            <label for="">
               <input class="input" type="email" placeholder="Correo" autocomplete="email" required>
             </label>
-            <label class="login-form__label" for=""> 
+            <label for="">
               <input class="input" type="password" placeholder="Contrasenia" autocomplete="new-password" required>
             </label>
-            <input class="button" type="submit" value="Iniciar sesión">
-            <div class="login-container__remember-me"> 
-              <label for="box1"> 
-                <input type="checkbox" name="box1" value="checkbox"><span class="login-remember-me__span">Recuerdame</span>
-              </label><a class="login-remember-me__i-forgot-my-password" href="#">Olvide mi contraseña </a>
-            </div>
-          </form>
-          <section class="login__social-media-container">
-            <div class="social-media-login-container">
-              <figure class="social-media-login-icons"><img src="https://static.platzi.com/media/tmp/class-files/git/curso-frontend-escuelajs/curso-frontend-escuelajs-maquetacion-login-HTML/maquetacion-login-HTML/assets/google-icon.png" alt="Google icon"/></figure><span class="social-media-login-text">Iniciar sesión con Google</span>
-            </div>
-            <div class="social-media-login-container">
-              <figure class="social-media-login-icons"><img src="https://static.platzi.com/media/tmp/class-files/git/curso-frontend-escuelajs/curso-frontend-escuelajs-maquetacion-login-HTML/maquetacion-login-HTML/assets/twitter-icon.png" alt="Twitter icon"/></figure><span class="social-media-login-text">Iniciar sesión con Twitter</span>
-            </div>
-          </section>
-          <p class="login__register">No tienes ninguna cuenta <a class="register__link" href="">Regístrate </a></p>
+            <input class="button" type="submit" value="Registrarme">
+          </form><a class="register__login" href=""> Iniciar sesión </a>
         </section>
       </section>
     </main>

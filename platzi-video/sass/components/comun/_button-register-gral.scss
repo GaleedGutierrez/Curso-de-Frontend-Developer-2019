@@ -1,0 +1,13 @@
+.button {
+    height: 5rem;
+    margin: 1rem 0;
+    font-family: $fuente-principal;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: $color-claro;
+    border: none;
+    border-radius: 2.5rem;
+    background-color: rgba($color-claro, 0.1);
+    cursor: pointer;
+}

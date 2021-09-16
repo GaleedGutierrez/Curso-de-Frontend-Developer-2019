@@ -73,8 +73,8 @@ img, svg {
     margin-bottom: 1rem;
 }
 .menu__logged .logged__text {
-    color: #ffffff;
     font-weight: 500;
+    color: #ffffff;
 }
 .menu__logged .logged__text:hover {
     text-decoration: underline;
@@ -113,6 +113,50 @@ img, svg {
         align-self: center;
     margin-bottom: 2.1rem;
     font-size: 2.5rem;
+}
+
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 10rem;
+}
+
+.footer__faq,
+.footer__nav {
+    width: 100%;
+}
+
+.footer__faq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+}
+
+.faq-link {
+    cursor: pointer;
+    font-size: 1.4rem;
+    /*
+    padding-left: 3rem;
+    */
+    color: #ffffff;
+}
+.faq-link:hover {
+    text-decoration: underline;
 }
 
 .input {
