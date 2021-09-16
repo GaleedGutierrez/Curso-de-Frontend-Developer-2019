@@ -1,0 +1,8 @@
+.login,
+.register {
+    &__container {
+        border: 0.2rem solid $color-claro;
+        border-radius: 4rem;
+        background-color: rgba($color-claro, 0.1);
+    }
+}

@@ -6,22 +6,15 @@
     flex-flow: column nowrap;
     min-height: calc(100vh - 20rem);
     font-size: 1.4rem;
-    // padding: 0 3rem;
 
     &__container {
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-around;
-        // box-sizing: content-box;
-        width: 90%;
+        width: 100%;
         max-width: 44rem;
         min-height: 70rem;
-        padding:
-            /*6rem 6.8rem 4rem*/
-            4rem 3.4rem 4rem;
+        padding:  4rem 3.4rem 4rem;
         color: $color-claro;
-        border: 0.2rem solid $color-claro;
-        border-radius: 4rem;
-        background-color: rgba($color-claro, 0.1);
     }
 }

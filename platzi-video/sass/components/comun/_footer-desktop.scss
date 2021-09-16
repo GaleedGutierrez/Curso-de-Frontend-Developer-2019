@@ -1,0 +1,16 @@
+.footer {
+    justify-content: flex-start;
+}
+
+.footer__nav {
+    margin-left: 3rem;
+}
+
+.footer__faq {
+    align-items: flex-start;
+    flex-flow: row nowrap;
+}
+
+.faq__items {
+    margin-right: 3rem;
+}

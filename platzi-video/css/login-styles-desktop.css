@@ -1,0 +1,30 @@
+.login__container,
+.register__container {
+    border: 0.2rem solid #ffffff;
+    border-radius: 4rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.footer__nav {
+    margin-left: 3rem;
+}
+
+.footer__faq {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+}
+
+.faq__items {
+    margin-right: 3rem;
+}

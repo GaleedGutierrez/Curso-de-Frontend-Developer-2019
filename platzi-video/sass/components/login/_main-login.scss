@@ -3,11 +3,10 @@
 .login-container__form {
     display: flex;
     flex-flow: column nowrap;
-    
+
     .login-container__remember-me {
         display: flex;
         justify-content: space-between;
-        flex-flow: column nowrap;
         margin-top: 1rem;
         color: $color-claro;
 
@@ -16,7 +15,6 @@
         }
 
         .login-remember-me__i-forgot-my-password {
-            margin-top: 1rem;
             @include action-ancla;
         }
     }
@@ -35,8 +33,12 @@
     }
 }
 
-.register__link {
-    font-size: 1.6rem;
-    font-weight: bold;
-    @include action-ancla;
+.login__register {
+    text-align: center;
+
+    .register__link {
+        font-size: 1.6rem;
+        font-weight: bold;
+        @include action-ancla;
+    }
 }

@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 10rem;
+    height: 12.1vh;
 }
 
 .footer__faq,
@@ -20,8 +20,5 @@
 .faq-link {
     cursor: pointer;
     font-size: 1.4rem;
-    /*
-    padding-left: 3rem;
-    */
     @include action-ancla;
 }
