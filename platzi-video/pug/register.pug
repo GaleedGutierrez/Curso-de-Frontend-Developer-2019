@@ -1,0 +1,17 @@
+extend ./components/_plantilla.pug
+block head 
+    include ./components/styles-components/_style-register.pug
+block main
+    main.main
+        section.register
+            section.register__container
+                h2 Regístrate
+                form(action="").register-container__form 
+                    label(for="")
+                        input(type="text" placeholder="Nombre" autocomplete="name" required).input
+                    label(for="")
+                        input(type="email" placeholder="Correo" autocomplete="email" required).input
+                    label(for="")
+                        input(type="password" placeholder="Contrasenia" autocomplete="new-password" required).input
+                    input(type="submit", value="Registrarme").button
+                a(href="").register__login  Iniciar sesión 

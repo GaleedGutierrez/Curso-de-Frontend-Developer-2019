@@ -89,7 +89,7 @@ body {
     display: none;
 }
 
-.login-container__form {
+.register-container__form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -98,55 +98,12 @@ body {
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
 }
-.login-container__form .login-container__remember-me {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column nowrap;
-            flex-flow: column nowrap;
-    margin-top: 1rem;
-    color: #ffffff;
-}
-.login-container__form .login-container__remember-me .login-remember-me__span {
-    margin-left: 0.3rem;
-}
-.login-container__form .login-container__remember-me .login-remember-me__i-forgot-my-password {
-    margin-top: 1rem;
-    color: #ffffff;
-}
-.login-container__form .login-container__remember-me .login-remember-me__i-forgot-my-password:hover {
-    text-decoration: underline;
-}
 
-.social-media-login-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 1rem;
-}
-.social-media-login-container .social-media-login-icons {
-    display: inline-block;
-    width: 3rem;
-    margin-right: 1rem;
-}
-
-.register__link {
-    font-size: 1.6rem;
-    font-weight: bold;
+.register__login {
+    text-align: center;
     color: #ffffff;
 }
-.register__link:hover {
+.register__login:hover {
     text-decoration: underline;
 }
 
