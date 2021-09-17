@@ -13,6 +13,8 @@ html {
 }
 
 body {
+    max-width: 120rem;
+    margin: 0 auto;
     font-family: "Mulish", sans-serif;
     font-size: 1.6rem;
     color: #ffffff;

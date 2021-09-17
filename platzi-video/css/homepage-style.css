@@ -13,6 +13,8 @@ html {
 }
 
 body {
+    max-width: 120rem;
+    margin: 0 auto;
     font-family: "Mulish", sans-serif;
     font-size: 1.6rem;
     color: #ffffff;
@@ -106,6 +108,7 @@ img, svg {
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
     width: 95%;
+    max-width: 100rem;
 }
 .main__search .search__title {
     -ms-flex-item-align: center;
