@@ -1,0 +1,8 @@
+extend ./components/_plantilla.pug
+block head 
+    include ./components/styles-components/_style-not-found.pug
+block main
+    main.main
+        seciton.error
+            h1.error__404.animated 404
+            p.error__not-found Página no encontrada
