@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    color: #ffffff;
+    background-color: #8F57FD;
+}
+
+img, svg {
+    width: 100%;
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#21C08B), to(#AB88FF));
+    background: linear-gradient(#21C08B, #AB88FF);
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    height: 8rem;
+}
+.header__logo {
+    width: 15rem;
+    margin-left: 1rem;
+}
+
+.header__menu {
+    margin-right: 1rem;
+    position: relative;
+}
+.header__menu:hover .menu__logged {
+    display: initial;
+}
+
+.menu__profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.menu__profile .profile__icon {
+    width: 5rem;
+    margin-right: 0.8rem;
+}
+
+.menu__logged {
+    display: none;
+    width: 10rem;
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+.menu__logged .logged__items {
+    margin-bottom: 1rem;
+}
+.menu__logged .logged__text {
+    font-weight: 500;
+    color: #ffffff;
+}
+.menu__logged .logged__text:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 12.1vh;
+}
+
+.footer__faq,
+.footer__nav {
+    width: 100%;
+}
+
+.footer__faq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+}
+
+.faq-link {
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+.faq-link:hover {
+    text-decoration: underline;
+}
+
+.header__menu {
+    display: none;
+}
+
+.main {
+    width: 100%;
+    height: 80vh;
+}
+
+.animated {
+    -webkit-animation-duration: 2.5s;
+            animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+.error {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+}
+.error__404 {
+    font-size: 8rem;
+    -webkit-animation-name: pulse;
+            animation-name: pulse;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
